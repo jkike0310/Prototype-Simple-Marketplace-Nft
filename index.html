@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>NFT Tagwizz</title>
+  <link rel="stylesheet" href="./src/css/template.css">
+</head>
+<body>
+  <h1>Colección Nft</h1>  
+  <h3>Minteo</h3>
+  <div class="container">
+      <div class="centered">
+        <button onclick="mint()" class="button-is-primary">Mintear</button><br>
+      </div>    
+  </div>
+  
+  <p id="web3_message"></p>
+  <h3>Mis Nfts (Minteados/Comprados)</h3>
+  <div id="my_nfts"></div>
+  <br>
+  <br>
+  <div id="my_listings"></div>
+  <h3>Nfts disponibles</h3>
+  <div id="all_listings"></div>
+
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+  <script type="text/javascript" src="connectionWeb3.js"></script>
+</body>
+</html>
